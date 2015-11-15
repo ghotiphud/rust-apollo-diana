@@ -1,0 +1,7 @@
+[package]
+name = "rust-apollo-diana"
+version = "0.1.0"
+authors = ["ghotiphud <yale.cason@gmail.com>"]
+
+[dependencies]
+nom = "^1.0.0"
