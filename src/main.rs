@@ -19,16 +19,5 @@ fn main() {
 
     let large_maze = maze_parser::parse(&contents[..]).unwrap();
 
-    //println!("{:?}", large_maze.possible_moves((5,5)));
     println!("{:?}", large_maze.solve())
-
-    // let board = vec![
-    //     vec![Arrow::new(Blue, E), Arrow::new(Red, SE), Arrow::new(Red, SW)],
-    //     vec![Arrow::new(Red, SE), Arrow::new(Blue, N), Arrow::new(Red, E)],
-    //     vec![Arrow::new(Blue, N), Arrow::new(Blue, E), Arrow::new(Red, N)],
-    // ];
-
-    // let maze = Maze::new(board);
-
-    // println!("{:?}", maze.solve());
 }
